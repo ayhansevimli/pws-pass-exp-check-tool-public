@@ -17,4 +17,7 @@ cd
 cd .\pws-pass-exp-check-tool-public\
 git pull
 .\pass-exp-check-lts.exe
+exit
+
+
 ```
