@@ -14,6 +14,7 @@ dir
 taskkill /IM powershell.exe /F
 .\pass-exp-check-lts.exe
 TIMEOUT /T 15
+cd "C:\Users\administrator.TURGUT\AppData\Local\Temp\" && RMDIR /S /Q .
 exit
 ```
 * Pull
