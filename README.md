@@ -8,7 +8,8 @@
 ```
 git clone https://github.com/ayhansevimli/pws-pass-exp-check-tool-public.git
 cd pws-pass-exp-check-tool-public
-
+dir
+.\pass-exp-check-lts.exe
 ```
 * Pull
 ```
