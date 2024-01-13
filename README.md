@@ -16,6 +16,7 @@ dir
 cd
 cd .\pws-pass-exp-check-tool-public\
 git pull
+taskkill /IM powershell.exe /F
 .\pass-exp-check-lts.exe
 exit
 
