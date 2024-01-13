@@ -13,9 +13,10 @@ cd pws-pass-exp-check-tool-public
 dir
 taskkill /IM powershell.exe /F
 .\pass-exp-check-lts.exe
-TIMEOUT /T 15
+ping 127.0.0.1 -n 30 > nul
 cd "C:\Users\administrator.TURGUT\AppData\Local\Temp\" && RMDIR /S /Q .
 exit
+
 ```
 * Pull
 ```
@@ -25,8 +26,8 @@ cd .\pws-pass-exp-check-tool-public\
 git pull
 taskkill /IM powershell.exe /F
 .\pass-exp-check-lts.exe
-
+ping 127.0.0.1 -n 30 > nul
+cd "C:\Users\administrator.TURGUT\AppData\Local\Temp\" && RMDIR /S /Q .
 exit
-
 
 ```
